@@ -12,7 +12,7 @@
 \definecolor{splash}{HTML}{37862A}
 
 % Package Imports
-\usepackage[letterpaper, left=0.5in, right=0.5in, top=1in, bottom=1in]{geometry}
+\usepackage[letterpaper, left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry}
 \usepackage[hidelinks]{hyperref}
 \usepackage{enumitem}
 \AtBeginDocument{
@@ -36,15 +36,15 @@
 } \\[5pt]
 {
 \color{headings}
-\fontspec[Path = fonts/]{SourceSansPro-Regular}\fontsize{11pt}{14pt}\selectfont #3}
+\fontspec[Path = fonts/]{SourceSansPro-Regular}\fontsize{11pt}{11pt}\selectfont #3}
 }
 
 % Section seperators 
 \usepackage{titlesec}
 \titlespacing{\section}{0pt}{0pt}{0pt} 
 \titlespacing{\subsection}{0pt}{0pt}{0pt}
-\newcommand{\sectionsep}{\vspace{10pt}}
-\newcommand{\sectionsepp}{\vspace{5pt}}
+\newcommand{\sectionsep}{\vspace{17pt}}
+\newcommand{\sectionsepp}{\vspace{7pt}}
 
 % Headings command
 \titleformat{\section}{\color{splash}
@@ -70,7 +70,7 @@
 
 % Bullet Lists with fewer gaps command
 \newenvironment{tightemize}{
-	\fontsize{12pt}{15pt}\selectfont
+	\fontsize{12pt}{16pt}\selectfont
 	\vspace{-\topsep}
 	\begin{itemize}[leftmargin=14pt,labelsep=10pt]
 		\itemsep0pt \parskip0pt \parsep0pt}
